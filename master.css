@@ -405,37 +405,41 @@ A[rel=external]:hover {
     font-style: normal
 }
 
-#experience {
+#resume {
     padding-bottom: 2em
 }
 
-#experience SECTION {
-    padding-bottom: 1em
+#resume SECTION {
+    padding-bottom: .5em;
+    margin-bottom: 1em;
 }
 
-#experience H1 {
+#resume H1 {
     margin-bottom: 1em
 }
 
-#experience H2 {
-    font-size: 1.3em;
-    line-height: 1.3;
-    margin-bottom: .5em;
-    margin-top: 1.5em;
+#resume DIV {
+    margin-bottom: 2.5em;
 }
 
-#experience H3 {
+#resume H2 {
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: .5em;
+}
+
+#resume H3 {
     font-size: 1.1em;
     line-height: 1.3;
     margin-bottom: .3em;
 }
 
-#experience UL {
+#resume UL {
     margin: 0 0 1em 1.25em;
     list-style-type: square
 }
 
-#experience UL LI {
+#resume UL LI {
     line-height: 1.3;
     margin-bottom: .5em
 }
@@ -493,6 +497,7 @@ A[rel=external]:hover {
 H1 {
     font-size: 2em;
     margin-bottom: 1em;
+    margin-top: 1em;
     text-align: left;
     line-height: 1.2
 }
@@ -569,7 +574,7 @@ H1 {
         margin-left: 2em
     }
 
-    #experience {
+    #resume {
         max-width: 80%;
         margin: auto;
         margin-top: 2em

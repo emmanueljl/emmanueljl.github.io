@@ -335,14 +335,6 @@ A[rel=external]:hover {
     margin: 0 0 0 2.25em
 }
 
-#portfolio {
-    padding-bottom: 3em
-}
-
-#portfolio SECTION {
-    padding-bottom: 1.5em
-}
-
 .github-callout {
     text-align: center
 }
@@ -359,25 +351,6 @@ A[rel=external]:hover {
     padding: 0;
     display: table-cell;
     vertical-align: middle
-}
-
-#portfolio UL {
-    margin-left: 0;
-    list-style-type: none
-}
-
-#portfolio UL.bullet {
-    list-style-type: square;
-    margin-left: 1.25em
-}
-
-#portfolio LI {
-    margin-bottom: .5em
-}
-
-#portfolio P {
-    line-height: 1.4;
-    margin-bottom: 1em
 }
 
 #best .intro {
@@ -442,6 +415,88 @@ A[rel=external]:hover {
 #resume UL LI {
     line-height: 1.3;
     margin-bottom: .5em
+}
+
+#extracurricular {
+    padding-bottom: 2em
+}
+
+#extracurricular SECTION {
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+#extracurricular H1 {
+    margin-bottom: 1em
+}
+
+#extracurricular DIV {
+    margin-bottom: 2.5em;
+}
+
+#extracurricular H2 {
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: .5em;
+}
+
+#extracurricular H3 {
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: .3em;
+}
+
+#extracurricular UL {
+    margin: 0 0 1em 1.25em;
+    list-style-type: square
+}
+
+#extracurricular UL LI {
+    line-height: 1.3;
+    margin-bottom: .5em
+}
+
+#hobbies {
+    padding-bottom: 2em
+}
+
+#hobbies SECTION {
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+#hobbies H1 {
+    margin-bottom: 1em
+}
+
+#hobbies DIV {
+    margin-bottom: 2.5em;
+}
+
+#hobbies H2 {
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: .5em;
+}
+
+#hobbies H3 {
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: .3em;
+}
+
+#hobbies UL {
+    margin: 0 0 1em 1.25em;
+    list-style-type: square
+}
+
+#hobbies UL LI {
+    line-height: 1.3;
+    margin-bottom: .5em
+}
+
+#hobbies img {
+    max-width: 100%;
 }
 
 #use SECTION {
@@ -564,20 +619,30 @@ H1 {
         max-width: 500px
     }
 
-    #portfolio SECTION {
-        max-width: 600px;
-        margin: auto
-    }
-
-    #portfolio .screenshot {
-        float: right;
-        margin-left: 2em
-    }
-
     #resume {
         max-width: 80%;
         margin: auto;
         margin-top: 2em
+    }
+
+    #extracurricular {
+        max-width: 80%;
+        margin: auto;
+        margin-top: 2em
+    }
+
+    #extracurricular img {
+        max-width: 45%;
+    }
+
+    #hobbies {
+        max-width: 80%;
+        margin: auto;
+        margin-top: 2em
+    }
+
+    #hobbies img.half_width {
+        max-width: 49.5%;
     }
 
     #best SECTION,

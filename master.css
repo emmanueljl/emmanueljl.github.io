@@ -438,10 +438,7 @@ A[rel=external]:hover {
 }
 
 #extracurricular img {
-    display: block;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
 }
 
 #hobbies {
@@ -484,10 +481,7 @@ A[rel=external]:hover {
 }
 
 #hobbies img {
-    display: block;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
 }
 
 #use SECTION {
@@ -629,7 +623,6 @@ H1 {
     }
 
     #hobbies img.half_width {
-        display: inline;
         max-width: 49.5%;
     }
 

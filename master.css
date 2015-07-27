@@ -337,6 +337,10 @@ A[rel=external]:hover {
     margin-right: auto;
 }
 
+#main img {
+    max-width: 100%;
+}
+
 .github-callout {
     text-align: center
 }
@@ -433,6 +437,13 @@ A[rel=external]:hover {
     margin-bottom: .5em
 }
 
+#extracurricular img {
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #hobbies {
     padding-bottom: 2em
 }
@@ -473,11 +484,10 @@ A[rel=external]:hover {
 }
 
 #hobbies img {
-    max-width: 100%;
-}
-
-#main img {
-    max-width: 100%;
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #use SECTION {
@@ -612,10 +622,6 @@ H1 {
         margin-top: 2em
     }
 
-    #extracurricular img {
-        max-width: 45%;
-    }
-
     #hobbies {
         max-width: 80%;
         margin: auto;
@@ -623,6 +629,7 @@ H1 {
     }
 
     #hobbies img.half_width {
+        display: inline;
         max-width: 49.5%;
     }
 

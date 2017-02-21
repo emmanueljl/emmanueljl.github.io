@@ -495,7 +495,7 @@ A[rel=external]:hover {
 }
 
 #page-wrapper {
-    padding: 0 1em 2em;
+    padding: 0 1em;
     margin: auto
 }
 
@@ -543,7 +543,6 @@ H1 {
 }
 
 #site-footer {
-    margin-bottom: 2em;
     text-align: center;
     font-size: .75em;
 }
@@ -640,7 +639,7 @@ H1 {
     #site-footer {
         text-align: center;
         max-width: 990px;
-        margin: -3.5em auto auto
+        margin: -3.5em auto 1em;
     }
 
     #site-footer LI {

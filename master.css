@@ -543,6 +543,7 @@ H1 {
 }
 
 #site-footer {
+    margin-bottom: 2em;
     text-align: center;
     font-size: .75em;
 }
